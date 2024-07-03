@@ -12,6 +12,9 @@ export default ({mode}) => {
   return defineConfig({
     base: "/",
     plugins: [vue()],
+    build: {
+      outDir: 'docs', // change the output directory to 'docs'
+    },
     resolve: {
       alias: [
         // thanks to https://stackoverflow.com/a/67676242/22296059 :)
