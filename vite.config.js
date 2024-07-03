@@ -10,7 +10,7 @@ export default ({mode}) => {
   };
 
   return defineConfig({
-    base: "/portfolio/",
+    base: "/",
     plugins: [vue()],
     build: {
       outDir: 'docs', // change the output directory to 'docs'
